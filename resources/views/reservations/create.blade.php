@@ -1,5 +1,6 @@
 @extends('layouts.app')
 @section('content')
+tezrt
     <form method="POST" action="{{ route('reservations.store') }}">
         @csrf
 
